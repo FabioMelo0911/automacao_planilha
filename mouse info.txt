@@ -1,0 +1,13 @@
+Try the new cross-platform PowerShell https://aka.ms/pscore6
+
+PS C:\Users\meloa> pip install mouseinfo
+Requirement already satisfied: mouseinfo in c:\users\meloa\appdata\local\programs\python\python312\lib\site-packages (0.1.3)
+Requirement already satisfied: pyperclip in c:\users\meloa\appdata\local\programs\python\python312\lib\site-packages (from mouseinfo) (1.8.2)
+PS C:\Users\meloa> python
+Python 3.12.4 (tags/v3.12.4:8e8a4ba, Jun  6 2024, 19:30:16) [MSC v.1940 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from mouseinfo import mouseInfo
+>>> mouseInfo
+<function mouseInfo at 0x000001F1A5EB2340>
+>>>
+>>> mouseInfo()
